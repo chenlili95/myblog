@@ -60,6 +60,7 @@
                     type: 'POST',
                     dataType: 'json',
                     success: function(result) {
+                        // console.log(result)
                         if (result.status !== 200) {
                             return alert(result.msg)
                         }
